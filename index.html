@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Average Rate of Change Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="averagerateofchangeRadio" name="variables" checked>
+  <label for="averagerateofchangeRadio">Average rate of change</label>
+
+  <input type="radio" id="x1Radio" name="variables">
+  <label for="x1Radio">x₁</label>
+
+  <input type="radio" id="fx1Radio" name="variables">
+  <label for="fx1Radio">f(x₁)</label>
+
+  <input type="radio" id="x2Radio" name="variables">
+  <label for="x2Radio">x₂</label>
+
+  <input type="radio" id="fx2Radio" name="variables">
+  <label for="fx2Radio">f(x₂)</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">x₁</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">f(x₁)</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">x₂</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">f(x₂)</label>
+  <input type="number" id="v4"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
